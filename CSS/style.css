@@ -1,0 +1,33 @@
+.page {
+    background-color: cadetblue;
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    background-color: gray;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-items: space-between;
+}
+.logo {
+    flex-grow: 1;
+    cursor: pointer;
+}
+.left {
+    display: flex;
+    justify-items: space-between;
+    gap: 20px;
+}
+@media screen and (max-width:500px) {
+.container {
+    background-color:cadetblue ;
+    flex-direction:column ;
+}
+.left {
+    flex-direction: column;
+    background-color: crimson;
+    justify-content: center;
+    align-items: center;
+}
+}
